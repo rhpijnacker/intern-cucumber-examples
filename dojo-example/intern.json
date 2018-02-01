@@ -1,0 +1,21 @@
+{
+	"loader": {
+		"script": "dojo",
+		"options": {
+			"packages": [
+				{ "name": "features", "location": "features" },
+				{ "name": "models", "location": "models" },
+				{ "name": "dojo", "location": "node_modules/dojo" }
+			]
+		}
+	},
+	"environments": ["chrome"],
+	"browser": {
+		"suites": [
+			"tests/addition"
+		],
+		"plugins": [
+			"node_modules/intern-cucumber/browser/plugin.js"
+		]
+	}
+}
