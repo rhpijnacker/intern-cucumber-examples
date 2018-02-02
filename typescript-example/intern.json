@@ -1,0 +1,11 @@
+{
+    "environments": ["node"],
+    "node": {
+        "suites": [
+            "tests/addition.js"
+        ],
+        "plugins": [
+            "node_modules/intern-cucumber/plugin.js"
+        ]
+    }
+}
