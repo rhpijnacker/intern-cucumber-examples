@@ -1,0 +1,13 @@
+{
+  "name": "es6-example",
+  "version": "0.0.1",
+  "description": "ES6 example for intern-cucumber",
+  "private": true,
+  "scripts": {
+    "test": "intern"
+  },
+  "devDependencies": {
+    "intern": "^4.1.5",
+    "intern-cucumber": "0.0.3"
+  }
+}
