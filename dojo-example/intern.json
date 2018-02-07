@@ -10,12 +10,20 @@
 		}
 	},
 	"environments": ["chrome"],
+	"functionalSuites": [
+		"tests/cheese"
+	],
+	"suites": [
+		"tests/addition"
+	],
 	"browser": {
-		"suites": [
-			"tests/addition"
-		],
 		"plugins": [
 			"node_modules/intern-cucumber/browser/plugin.js"
+		]
+	},
+	"node": {
+		"plugins": [
+			"intern-cucumber/plugin.js"
 		]
 	}
 }
