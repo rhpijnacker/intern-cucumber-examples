@@ -3,16 +3,21 @@
 		"script": "dojo",
 		"options": {
 			"packages": [
-				{ "name": "features", "location": "features" },
-				{ "name": "models", "location": "models" },
-				{ "name": "dojo", "location": "node_modules/dojo" }
+				{
+					"name": "features",
+					"location": "features"
+				},
+				{
+					"name": "models",
+					"location": "models"
+				},
+				{
+					"name": "dojo",
+					"location": "node_modules/dojo"
+				}
 			]
 		}
 	},
-	"environments": ["chrome"],
-	"functionalSuites": [
-		"tests/cheese"
-	],
 	"suites": [
 		"tests/addition"
 	],
@@ -25,5 +30,15 @@
 		"plugins": [
 			"intern-cucumber/plugin.js"
 		]
+	},
+	"configs": {
+		"functional": {
+			"environments": [
+				"chrome"
+			],
+			"functionalSuites": [
+				"tests/cheese"
+			]
+		}
 	}
 }

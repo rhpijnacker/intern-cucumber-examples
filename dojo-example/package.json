@@ -7,8 +7,8 @@
     "test": "intern"
   },
   "devDependencies": {
-    "intern": "^4.1.5",
-    "intern-cucumber": "0.0.9"
+    "intern": "^4.7.1",
+    "intern-cucumber": "0.0.14"
   },
   "dependencies": {
     "dojo": "^1.13.0"
