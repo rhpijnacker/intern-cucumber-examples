@@ -11,6 +11,6 @@
     "intern-cucumber": "0.0.14"
   },
   "dependencies": {
-    "dojo": "^1.13.0"
+    "dojo": "^1.13.1"
   }
 }
