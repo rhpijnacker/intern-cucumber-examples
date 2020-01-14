@@ -19,7 +19,8 @@
 		}
 	},
 	"suites": [
-		"tests/addition"
+		"tests/addition",
+		"tests/addition2"
 	],
 	"browser": {
 		"plugins": [
